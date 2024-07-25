@@ -7,7 +7,6 @@ import {
   getDownloadURL,
   uploadBytesResumable,
 } from "firebase/storage";
-import { buffer } from "micro";
 import multer from "multer";
 
 const prisma = new PrismaClient();
